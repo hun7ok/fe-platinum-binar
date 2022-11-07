@@ -1,0 +1,90 @@
+.testi-title{
+  width: auto;
+  
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.testi-title h1{
+  font-size: 30px;
+  font-weight:700;
+  line-height: 36px;
+}
+
+.testi-title p{
+  font-size: 14px;
+  font-weight:700;
+}
+
+.testi-section{
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+}
+
+.testi-card-container{
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testi-card-content {
+  padding: 2rem;
+  margin: 1rem;
+  background-color: #F1F3FF !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.testi-image img{
+  width: 100px;
+  
+}
+
+.testi-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.testi-text p{
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0.5rem 0 0.5rem 0;
+  
+}
+
+.testi-star{
+  display: flex;
+  justify-content: center;
+}
+
+
+.fa-star{
+  color: gold;
+}
+
+.ikon:active, .ikon:hover{
+  color: #5CB85F;
+}
+@media only screen and (min-width: 1024px) {
+
+  .testi-card-content {
+    flex-direction: row !important;
+  }
+  
+  .testi-image img{
+    padding-right: 1.5rem;
+  }
+
+  .testi-star{
+  justify-content: flex-start;
+}
+}
